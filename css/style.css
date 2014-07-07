@@ -1,2 +1,13 @@
 body {
-  background-image: url("img/bg-texture.jpg"); }
+  background: url("img/bg-texture.jpg") #2f0c07;
+  font-size: 1em; }
+
+#intro h1 {
+  font-size: 1.5em; }
+#intro a {
+  font-size: 0.75em; }
+
+h2 {
+  font-size: 0.77778em; }
+  h2 p {
+    font-size: 0.83333em; }

@@ -1,5 +1,22 @@
-body{
-    
-    background-image: url("img/bg-texture.jpg");
-        
+@function em($target, $context:16){
+    @return($target / $context ) *1em;
 }
+
+$background:url("img/bg-texture.jpg");
+
+body{
+    background:$background #2f0c07;
+    font-size:em(16);
+    }
+
+#intro {
+    h1 {
+    font-size:em(24);
+      }
+    a {font-size:em(18, 24);}
+}
+
+h2{font-size:em(14, 18);
+    p{font-size:em(10, 12);}
+}
+
